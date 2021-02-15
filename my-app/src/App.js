@@ -36,9 +36,9 @@ function App() {
         </div>
         <div className='radio-section radio-section-filter'>
         <select onChange={onFilterChange}>
-          <option selected={filter === '3days'} value="3days">3 Days</option>
-          <option selected={filter === '7days'} value="7days">7 Days</option>
-          <option selected={filter === '30days'} value="30days">30 Days</option>
+          <option selected={filter === '3'} value="3">3 Days</option>
+          <option selected={filter === '7'} value="7">7 Days</option>
+          <option selected={filter === '30'} value="30">30 Days</option>
         </select>
         </div>
         <div className="recent-activities">
